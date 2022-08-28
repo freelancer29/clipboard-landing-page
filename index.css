@@ -1,0 +1,658 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    font-family: 'Bai Jamjuree';
+    background-size: contain;
+}
+
+.heading {
+    line-height: 2rem;
+    width: 50rem;
+    margin: 0 auto;
+    margin-top: 7rem;
+    text-align: center;
+}  
+.heading h1 {
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    color: hsl(210, 10%, 33%);
+}
+.heading p {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: hsl(201, 11%, 66%);
+}
+.ios_button {
+    background-color: hsl(171, 66%, 44%);
+    width: 16rem;
+    height: 3.5rem;
+    color: white;
+    border-radius: 3rem;
+    font-size: 18px;
+    border: none;
+    margin-top: 3rem;
+    box-shadow: 0 5px 1px 0 hsl(171, 66%, 44%), 0 7px 21px 0 hsl(171, 66%, 44%);
+}
+.ios_button:hover {
+    background-color: white;
+    color: hsl(171, 66%, 44%);
+    border: 2px solid hsl(171, 66%, 44%);
+}
+.mac_button {
+    width: 16rem;
+    height: 3.5rem;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-left: 2rem;
+    border-radius: 3rem;
+    box-shadow: 0 5px 1px 0 hsl(233, 100%, 69%), 0 7px 21px 0 hsl(233, 100%, 90%);
+    background-color: hsl(233, 100%, 69%);
+}
+.mac_button:hover {
+    background-color: white;
+    color: hsl(233, 100%, 69%);
+    border: 2px solid hsl(233, 100%, 69%);
+}
+.heading h2 {
+    font-size: 2.5rem;
+    color: hsl(210, 10%, 33%);
+}
+.snippet {
+    margin-top: 10rem;
+}
+.snippet p {
+    font-size: 23px;
+}
+main {
+    margin-top: 6rem;
+}
+.computer_overview {
+    display: flex;
+    margin-left: -8rem;
+    justify-content: space-around;
+}
+.computer_overview img {
+    width: 40rem;
+}
+.tools {
+    margin-top: 2rem;
+    width: 20rem;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+}
+.tools h3 {
+    color: hsl(210, 10%, 33%);
+    margin-top: 3rem;
+}
+.smartphone {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.smartphone h4 {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    color: hsl(210, 10%, 33%);
+}
+.smartphone p {
+    margin-top: 1rem;
+    line-height: 2rem;
+    font-size: 23px;
+    color: hsl(201, 11%, 66%);
+}
+
+.smartphone img {
+    width: 45rem;
+    margin-top: 5rem;
+}
+.access {
+    width: 48rem;
+    text-align: center;
+}
+.icon_list {
+    margin: 4rem 8rem 0 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.blacklist {
+    width: 19rem;
+    text-align: center;
+    line-height: 2rem;
+}
+.blacklist h5 {
+    font-size: 1.3rem;
+}
+.brands {
+    margin: 6rem 7rem 0 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom {
+    margin-top: 8rem;
+    text-align: center;
+}
+.bottom h6 {
+    font-size: 2.5rem;
+}
+.bottom p {
+    font-size: 18px;
+}
+.text_cover {
+    width: 40rem;
+    margin: 0 auto;
+    line-height: 3rem;
+}
+.text_cover p {
+    line-height: 2rem;
+    margin-bottom: -2px;
+    margin-top: 1rem;
+}
+.text_cover h6 {
+    font-size: 2rem;
+}   
+footer {
+    margin-top: 9rem;
+    background-color: hsl(200, 11%, 89%);
+    display: flex;
+    padding: 1rem;
+} 
+.link {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+    line-height: 1.5rem;
+}
+.right_footer {
+    margin-left: 38rem;
+}
+footer #footer_logo {
+    width: 2rex;
+    height: 2rem;
+    margin-left: 3rem;
+}
+.right_footer img {
+    margin-left: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 1rem;
+}
+footer a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+.link_cover {
+    display: flex;
+    margin-left: 3rem;
+} 
+
+
+@media screen and (max-width: 480px) {
+body {
+    background-image: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.heading {
+    line-height: 2rem;
+    width: 15rem;
+    margin-top: 7rem;
+    text-align: center;
+}
+.heading img {
+    width: 8rem;
+    height: 8rem;
+}
+.heading h1 {
+    font-size: 25px;
+    margin-top: 3rem;
+    color: hsl(210, 10%, 33%);
+}
+.heading p {
+    font-size: 14.5px;
+    margin-top: 1.5rem;
+    color: hsl(201, 11%, 66%);
+}
+.ios_button {
+    background-color: hsl(171, 66%, 44%);
+    width: 16rem;
+    height: 2.5rem;
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: 3rem;
+    box-shadow: 0.5% 3px 10px 0 hsl(171, 66%, 44%), 0 7px 21px 0 hsl(171, 66%, 44%);
+}
+.mac_button {
+    width: 16rem;
+    height: 2.5rem;
+    color: white;
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    box-shadow: 0.5% 3px 10px 0 hsl(233, 100%, 69%), 0 7px 21px 0 hsl(233, 100%, 90%);
+    background-color: hsl(233, 100%, 69%);
+}
+
+.heading h2 {
+    font-size: 25px;
+    color: hsl(210, 10%, 33%);
+}
+.snippet {
+    margin-top: 10rem;
+}
+.snippet p {
+    font-size: 14.5px;
+}
+main {
+    margin-top: 6rem;
+}
+.computer_overview {
+    display: block;
+    margin-left: 0rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.computer_overview img {
+    width: 15rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.tools {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    width: 15rem;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+}
+.tools h3 {
+    font-size: 23px;
+}
+.tools h3 {
+    font-size: 14.5px;
+}
+.tools h3 {
+    color: hsl(210, 10%, 33%);
+    margin-top: 3rem;
+}
+.smartphone {
+    margin-top: 6rem;
+    display: block;
+    margin-left: 4rem;
+    text-align: center;
+}
+.smartphone h4 {
+    margin-top: 3rem;
+    font-size: 23px;
+    color: hsl(210, 10%, 33%);
+}
+.smartphone p {
+    margin-top: 1rem;
+    line-height: 2rem;
+    font-size: 14.5px;
+}
+
+.smartphone img {
+    max-width: 20rem;
+    margin-left: -5rem; 
+    text-align: center;
+}
+.phone_text {
+    width: 15rem;
+    text-align: center;
+}
+.access {
+    width: 15rem;
+    text-align: center;
+}
+.icon_list {
+    margin: 4rem 0 0 2rem;
+    display: block;
+}
+.blacklist {
+    width: 19rem;
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 3rem;
+}
+.blacklist h5 {
+    font-size: 1.3rem;
+}
+.brands {
+    margin-top: 3rem;
+    display: block;
+    text-align: center;
+}
+.brands img {
+    margin-top: 3.5rem;
+    margin-left: 3rem;
+}
+.bottom {
+    margin-top: 8rem;
+    text-align: center;
+}
+.bottom h6 {
+    font-size: 2.5rem;
+}
+.bottom p {
+    font-size: 14.5px;
+}
+.text_cover {
+    width: 15rem;
+    margin: 0 auto;
+}
+.text_cover p {
+    line-height: 2rem;
+    margin-bottom: -2px;
+    margin-top: 1rem;
+    font-size: 14.5px;
+}
+.text_cover h6 {
+    font-size: 23px;
+}   
+footer {
+    margin-top: 5rem;
+    background-color: hsl(200, 11%, 89%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+} 
+.link {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    margin-left: 0;
+    margin-top: 2rem;
+    text-align: center;
+}
+#link2 {
+    margin-top: 0.2rem;
+}
+#link3{
+    margin-top: 0.2rem;
+}
+.right_footer {
+    margin-left: -1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+footer #footer_logo {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 3rem;
+}
+.right_footer img {
+    margin-left: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0;
+}
+footer a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+.link_cover {
+    display: block;
+    margin-left: 0;
+} 
+}
+
+
+@media screen and (min-width: 481px) and (max-width:1023px) {
+    body {
+        background-image: url(./images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .heading {
+        line-height: 2rem;
+        width: 40rem;
+        margin: 0 auto;
+        margin-top: 7rem;
+        text-align: center;
+    }  
+    .heading h1 {
+        font-size: 2.5rem;
+        margin-top: 3rem;
+        color: hsl(210, 10%, 33%);
+    }
+    .heading p {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        color: hsl(201, 11%, 66%);
+    }
+    .ios_button {
+        background-color: hsl(171, 66%, 44%);
+        width: 16rem;
+        height: 3.5rem;
+        color: white;
+        border-radius: 3rem;
+        font-size: 18px;
+        border: none;
+        margin-top: 3rem;
+        box-shadow: 0 5px 1px 0 hsl(171, 66%, 44%), 0 7px 21px 0 hsl(171, 66%, 44%);
+    }
+    .ios_button:hover {
+        background-color: white;
+        color: hsl(171, 66%, 44%);
+        border: 2px solid hsl(171, 66%, 44%);
+    }
+    .mac_button {
+        width: 16rem;
+        height: 3.5rem;
+        color: white;
+        font-size: 18px;
+        border: none;
+        margin-left: 2rem;
+        border-radius: 3rem;
+        box-shadow: 0 5px 1px 0 hsl(233, 100%, 69%), 0 7px 21px 0 hsl(233, 100%, 90%);
+        background-color: hsl(233, 100%, 69%);
+    }
+    .mac_button:hover {
+        background-color: white;
+        color: hsl(233, 100%, 69%);
+        border: 2px solid hsl(233, 100%, 69%);
+    }
+    .heading h2 {
+        font-size: 2.5rem;
+        color: hsl(210, 10%, 33%);
+    }
+    .snippet {
+        margin-top: 10rem;
+    }
+    .snippet p {
+        font-size: 23px;
+    }
+    main {
+        margin-top: 6rem;
+    }
+    .computer_overview {
+        display: flex;
+        text-align: center;
+        margin-left: 2rem;
+    }
+    .computer_overview img {
+        width: 24rem;
+        height: 35rem;
+        margin-left: 2rem;
+    }
+    .tools {
+        margin-top: 7rem;
+        margin-left: -2rem;
+        width: 25rem;
+        color: hsl(201, 11%, 66%);
+        font-size: 18px;
+        text-align: left;
+    }
+    .tools h3 {
+        text-align: center;
+        font-size: 1.5rem;
+        color: hsl(210, 10%, 33%);
+        margin-top: 2rem;
+
+    }
+    .tools p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .smartphone {
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .smartphone h4 {
+        margin-top: 3rem;
+        font-size: 3rem;
+        color: hsl(210, 10%, 33%);
+    }
+    .smartphone p {
+        margin-top: 1rem;
+        line-height: 2rem;
+        font-size: 30px;
+        color: hsl(201, 11%, 66%);
+    }
+    
+    .smartphone img {
+        width: 45rem;
+        margin-top: 5rem;
+    }
+    .access {
+        width: 40rem;
+        text-align: center;
+    }
+    .icon_list {
+        margin: 4rem 8rem 0 6rem;
+        display: flex;
+    }
+    .blacklist {
+        width: 19rem;
+        text-align: center;
+        margin-left: 3rem;
+    }
+    .blacklist h5 {
+        font-size: 1rem;
+    }
+    .brands {
+        margin-left: -2rem;
+        display: flex;
+    }
+    .brands img {
+        width: 5rem;
+        height: 2rem;
+        margin-left: 2rem;
+    }
+    .bottom {
+        margin-top: 8rem;
+        text-align: center;
+    }
+    .bottom h6 {
+        font-size: 2.5rem;
+    }
+    .bottom p {
+        font-size: 18px;
+    }
+    .text_cover {
+        width: 40rem;
+        margin: 0 auto;
+        line-height: 3rem;
+    }
+    .text_cover p {
+        line-height: 2rem;
+        margin-bottom: -2px;
+        margin-top: 1rem;
+    }
+    .text_cover h6 {
+        font-size: 2rem;
+    }   
+    footer {
+        margin-top: 9rem;
+        background-color: hsl(200, 11%, 89%);
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem;
+    } 
+    .link {
+        display: flex;
+        margin-left: 1rem;
+        line-height: 1.5rem;
+    }
+    .right_footer {
+        margin-left: 0;
+        float: left; 
+    }
+    footer #footer_logo {
+        width: 2rex;
+        height: 2rem;
+        margin-left: 4rem;
+    }
+    .right_footer img {
+        margin-left: 1rem;
+        width: 1rem;
+        height: 1rem;
+        margin-top: 1rem;
+    }
+    footer a {
+        text-decoration: none;
+        color: hsl(210, 10%, 33%);
+    }
+    .link_cover {
+        display: flex;
+        margin-left: 2rem;
+}
+} 
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .tools {
+        margin-top: 2rem;
+        margin-left: 6rem;
+        width: 20rem;
+        color: hsl(201, 11%, 66%);
+        font-size: 18px;
+    }
+    .right_footer {
+        margin-left: 25rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .right_footer {
+        margin-left: 15rem;
+    }
+    .tools {
+        margin-top: -2rem;
+        margin-left: 3rem;
+        width: 15rem;
+        color: hsl(201, 11%, 66%);
+        font-size: 17px;
+    }
+    .computer_overview img {
+        width: 35rem;
+    }
+    .brands {
+        margin: 6rem 7rem 0 7rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .brands img {
+        width: 8rem;
+        height: 3rem;
+        margin-left: 1rem;
+    }
+}
