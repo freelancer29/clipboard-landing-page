@@ -24,11 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/clipboard.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here]()
+- Live Site URL: [https://freelancer29.github.io/clipboard-landing-page/](https://freelancer29.github.io/clipboard-landing-page/)
 
 ## My process
 
